@@ -31,7 +31,7 @@ const Profile = () => {
         <div className='z-0'><Pageloader/></div>
         {/* pageloader */}
 
-       <div className=' bg-white dark:bg-opacity-10 rounded-2xl p-4 shadow-md mb-12'> 
+       <div className=' bg-white dark:bg-opacity-10 rounded-2xl p-4 shadow-md'> 
        <h1 className='text-2xl font-semibold dark:text-Applegreen mb-4'>Account info</h1>
 
         <div className='flex gap-5 items-center h-20 p-4  mb-2'>
@@ -57,7 +57,9 @@ const Profile = () => {
             <p className='text-sm dark:text-gray'>Log out add or create a new account.</p>
           </div>
         </div>
+
        </div>
+       <div className='w-full h-32'></div>
 
       </div>
 

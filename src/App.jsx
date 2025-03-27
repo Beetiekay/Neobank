@@ -24,7 +24,6 @@ import Finish from './pages/Addmoney/Finish'
 
 export default function App() {
   return (
-    <div>
      <BrowserRouter>
       <Routes>
           <Route path="/" element={<Form/>}/>
@@ -50,7 +49,5 @@ export default function App() {
           <Route path="/notification" element={<Notification/>}/>
        </Routes>
      </BrowserRouter>
-
-    </div>
   )
 }

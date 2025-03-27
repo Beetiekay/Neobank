@@ -13,9 +13,9 @@ const Home = () => {
   
 
   return (
-    <div className='w-full h-full bg-Antiflashwhite dark:bg-black '>
+    <div className='w-full min-h-[100vh] bg-Antiflashwhite dark:bg-black '>
      {/* Header */}
-      <div className='w-full  flex justify-between items-center min-h-20 px-2 m-0'>
+      <div className='w-full flex justify-between items-center min-h-20 px-2 m-0'>
       <div>
         <h1 className='text-2xl dark:text-Applegreen font-semibold'>Good Morning, Bishir</h1>
         <p className='text-lg text-gray '>Welcome to Neobank</p>
@@ -81,7 +81,7 @@ const Home = () => {
             {/* card section */}
 
             {/* Spending */}
-            <div className='px-2 mb-24'>
+            <div className='px-2'>
             <div className='w-full h-[37vh] bg-white dark:bg-opacity-10 rounded-2xl shadow-md p-5'>
             <div className='flex justify-between mb-4'>
               <h1 className='text-xl font-bold dark:text-white'>Transactions</h1>
@@ -130,6 +130,8 @@ const Home = () => {
                 <p className='text-sm text-center font-semibold bg-Applegreen p-1 rounded-2xl'>+$1.65</p>
                 </div>
               </div>
+
+              <div className="w-full h-36"></div>
             </div>
             </div>
             </div>
