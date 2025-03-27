@@ -7,7 +7,7 @@ import NeoBank from '../../components/pageloader/Neobank';
 
 const Form = () => {
   return (
-    <div className='w-full h-[100vh] dark:bg-black flex justify-center items-center'>
+    <div className='w-full min-h-[100vh] overflow-hidden dark:bg-black flex justify-center items-center'>
       <Tabs className="lg:w-[30%] md:w-[80%] w-full h-full bg-Antiflashwhite dark:bg-black">
 
         {/* Header */}

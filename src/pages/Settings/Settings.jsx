@@ -52,7 +52,7 @@ const Settings = () => {
       </div>
 
      {/* Nav links */}
-     <div className='w-full'><Nav/></div>
+     <div className='w-full fixed bottom-0'><Nav/></div>
      {/* Nav links */}
     </div>
   )
